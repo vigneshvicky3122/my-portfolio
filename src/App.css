@@ -1,38 +1,227 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headings {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: 500;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  background: #9442fe;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 4em;
+}
+.navbar-headings {
+  display: flex;
+  gap: 20px;
+}
+.navbar-header {
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+}
+.about-container {
+  width: 100%;
+  height: 100vh;
+  color: black;
+  background: #fafafa;
+  padding-top: 15vh;
+}
+.about-wrapper {
+  display: flex;
+  padding: 5em 10em;
+  gap: 5em;
+}
+.about-main,
+.about-sec {
+  width: 50%;
+  height: 100vh;
+}
+@media screen and (max-width: 1024px) {
+  .about-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .about-main,
+  .about-sec {
+    width: 100%;
+    height: 80vh;
+  }
+  .about-profile-img {
+    width: 100%;
+    height: auto;
+  }
+  .content-main{
+    font-size: small;
+  }
+  .explanation{
+    text-align: center;
+    font-size: smaller;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about-profile-img {
+  max-width: 100%;
+  max-height: 50%;
+}
+.name {
+  color: #9442fe;
+}
+.explanation {
+  text-align: justify;
+}
+
+.project-container {
+  width: 100%;
+  height: 100vh;
+  color: black;
+  background: #fafafa;
+  padding-top: 15vh;
+}
+.project-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-top: 3em;
+}
+.project-card {
+  display: grid;
+  padding: 10px;
+  width: 20em;
+  height: 25em;
+  background: #ffff;
+  border: 1px solid #dbdbdb;
+}
+.project-img {
+  width: 100%;
+  height: 200px;
+}
+.project-link-btn {
+  font-size: small;
+  background: #9442fe;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.project-description {
+  text-align: justify;
+}
+.skills-container {
+  width: 100%;
+  height: 100vh;
+  color: black;
+  background: #fafafa;
+  padding-top: 15vh;
+}
+
+.skills-items {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  align-items: center;
+  padding-top: 3em;
+  gap: 10px;
+}
+.element-name {
+  font-size: small;
+  font-weight: 700;
+}
+.contacts-container {
+  width: 100%;
+  height: 80vh;
+  color: black;
+  background: #fafafa;
+  padding-top: 20vh;
+}
+.contacts-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.contact-inputs {
+  width: 25%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 15px;
+}
+.contact-open {
+  display: flex;
+  row-gap: 20px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.form-title {
+  text-align: center;
+  font-size: larger;
+}
+.contact-name {
+  width: 100%;
+  height: 25px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  outline: none;
+}
+.contact-message {
+  width: 100%;
+  min-height: 7em;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  outline: none;
+}
+.contact-submit-btn {
+  width: 100%;
+  height: 25px;
+  background: #9442fe;
+  border: none;
+  border-radius: 5px;
+  color: #ffff;
+  font-size: small;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.contact-links {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-top: 10px;
+  gap: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-details {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  text-align: end;
+  background: #fafafa;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  font-size: large;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+.contact-data {
+  font-size: large;
+  color: #9442fe;
 }
