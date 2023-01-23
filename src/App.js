@@ -72,7 +72,7 @@ function App() {
               comments
             </p>
             <a
-              href="https://royal-vintages.netlify.app"
+              href="https://meta-instagram.netlify.app"
               target="_blank"
               style={{ cursor: "unset", textDecoration: "none" }}
             >
@@ -91,7 +91,7 @@ function App() {
               details, order summary, then payment parse...
             </p>
             <a
-              href="https://royal-vintages.netlify.app"
+              href="https://royal-vintage.netlify.app"
               target="_blank"
               style={{ cursor: "unset", textDecoration: "none" }}
             >
