@@ -69,15 +69,32 @@ function App() {
             <h3 className="project-title">Social Media</h3>
             <p className="project-description">
               A simple social media application with users, posts, likes and
-              comments
+              comments, Integrated social media APIs to allow users to share
+              content on various social media platforms.
             </p>
-            <a
-              href="https://meta-instagram.netlify.app"
-              target="_blank"
-              style={{ cursor: "unset", textDecoration: "none" }}
-            >
-              <button className="project-link-btn">Link</button>
-            </a>
+            <div className="projects-links">
+              <a
+                href="https://meta-instagram.netlify.app"
+                target="_blank"
+                style={{ cursor: "unset", textDecoration: "none" }}
+              >
+                <button className="project-link-btn">Hosting</button>
+              </a>
+              <a
+                href="https://github.com/vigneshvicky3122/instagram-frontend"
+                target="_blank"
+                style={{ cursor: "unset", textDecoration: "none" }}
+              >
+                <button className="project-link-btn">Frontend</button>
+              </a>
+              <a
+                href="https://github.com/vigneshvicky3122/Instagram/tree/backend"
+                target="_blank"
+                style={{ cursor: "unset", textDecoration: "none" }}
+              >
+                <button className="project-link-btn">Backend</button>
+              </a>
+            </div>
           </div>
           <div className="project-card">
             <img
@@ -87,16 +104,103 @@ function App() {
             />
             <h3 className="project-title">E-Commerce</h3>
             <p className="project-description">
-              Equipment rental portal, what the process is add to cart, adders
-              details, order summary, then payment parse...
+              Equipment rental portal Developed an e-commerce platform that
+              integrated with payment gateways and enabled customers to purchase
+              products online.
             </p>
-            <a
-              href="https://royal-vintage.netlify.app"
-              target="_blank"
-              style={{ cursor: "unset", textDecoration: "none" }}
-            >
-              <button className="project-link-btn">Link</button>
-            </a>
+            <div className="projects-links">
+              <a
+                href="https://royal-vintage.netlify.app"
+                target="_blank"
+                style={{ cursor: "unset", textDecoration: "none" }}
+              >
+                <button className="project-link-btn">Hosting</button>
+              </a>
+              <a
+                href="https://github.com/vigneshvicky3122/Royal-vintage"
+                target="_blank"
+                style={{ cursor: "unset", textDecoration: "none" }}
+              >
+                <button className="project-link-btn">Frontend</button>
+              </a>
+              <a
+                href="https://github.com/vigneshvicky3122/backend-royal-vintages"
+                target="_blank"
+                style={{ cursor: "unset", textDecoration: "none" }}
+              >
+                <button className="project-link-btn">Backend</button>
+              </a>
+            </div>
+          </div>
+          <div className="project-card">
+            <img
+              src="https://streetfightmag.com/wp-content/uploads/chat.jpg"
+              alt=""
+              className="project-img"
+            />
+            <h3 className="project-title">ChatBot</h3>
+            <p className="project-description">
+              ChatBot is a commutation platform, everybody can communicate with
+              their favorite person and it is a Reliable, Private, Simple.
+            </p>
+            <div className="projects-links">
+              <a
+                href="https://whatsapp-chatbot.netlify.app"
+                target="_blank"
+                style={{ cursor: "unset", textDecoration: "none" }}
+              >
+                <button className="project-link-btn">Hosting</button>
+              </a>
+              <a
+                href="https://github.com/vigneshvicky3122/whatsapp-client"
+                target="_blank"
+                style={{ cursor: "unset", textDecoration: "none" }}
+              >
+                <button className="project-link-btn">Frontend</button>
+              </a>
+              <a
+                href="https://github.com/vigneshvicky3122/whatsapp-backend"
+                target="_blank"
+                style={{ cursor: "unset", textDecoration: "none" }}
+              >
+                <button className="project-link-btn">Backend</button>
+              </a>
+            </div>
+          </div>
+          <div className="project-card">
+            <img
+              src="https://images.wsj.net/im-51539/D"
+              alt=""
+              className="project-img"
+            />
+            <h3 className="project-title">Movie-Bot</h3>
+            <p className="project-description">
+              It's a Movie Streaming Application, who can register with their
+              Credentials, they can Watch Movies without Premium/Subscription.
+            </p>
+            <div className="projects-links">
+              <a
+                href="https://frontend.d1mum3ryh4pnhi.amplifyapp.com"
+                target="_blank"
+                style={{ cursor: "unset", textDecoration: "none" }}
+              >
+                <button className="project-link-btn">Hosting</button>
+              </a>
+              <a
+                href="https://github.com/vigneshvicky3122/movie-bot/tree/frontend"
+                target="_blank"
+                style={{ cursor: "unset", textDecoration: "none" }}
+              >
+                <button className="project-link-btn">Frontend</button>
+              </a>
+              <a
+                href="https://github.com/vigneshvicky3122/movie-bot/tree/backend"
+                target="_blank"
+                style={{ cursor: "unset", textDecoration: "none" }}
+              >
+                <button className="project-link-btn">Backend</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -284,11 +388,31 @@ function App() {
               </li>
               <li>
                 <label>Email Address</label>
-                <p className="contact-data">vigneshvicky3122@gmail.com</p>
+
+                <p className="contact-data">
+                  <a
+                    href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRvwTdlZFxDtkvFmkgZsSqXMdXxVvSGKXksQJmfdqPVTkzkMwJNvcNJTBFHgBKjWXPNJsDQ"
+                    target="_blank"
+                    className="link-icon email-link"
+                  >
+                    vigneshvicky3122@gmail.com
+                  </a>
+                </p>
               </li>
               <li>
-                <label>Social</label>
+                <label>Links</label>
                 <div className="contact-links">
+                  <a
+                    href="https://dza205f4gev3o.cloudfront.net/my-assets/RESUME-.pdf"
+                    target="_blank"
+                    className="link-icon"
+                  >
+                    <img
+                      src="https://dza205f4gev3o.cloudfront.net/Assets/curriculum-vitae.png"
+                      alt=""
+                      width="55px"
+                    />
+                  </a>
                   <a
                     href="https://github.com/vigneshvicky3122"
                     target="_blank"
@@ -309,7 +433,7 @@ function App() {
                       alt=""
                     />
                   </a>
-                  <a
+                  {/* <a
                     href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfmrTCCGhpJDMDZJpxhdgLnPHmHMwmHnlFCDmDRWQQdZbVFVPgHgsPwBBVQttKJGBQpKLq"
                     target="_blank"
                     className="link-icon"
@@ -318,7 +442,7 @@ function App() {
                       src="https://img.icons8.com/3d-fluency/45/null/gmail.png"
                       alt=""
                     />
-                  </a>
+                  </a> */}
                   <a
                     href="https://wa.me/8304873122?text=I'm%20interested%20in%20your%20job%20profile"
                     target="_blank"
