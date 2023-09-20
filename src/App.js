@@ -410,7 +410,7 @@ function App() {
                 <label>Links</label>
                 <div className="contact-links">
                   <a
-                    href="https://drive.google.com/file/d/11NEIVfkuIwtMb0maA7xPmiyhA-16HLCD/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1xWxHrxWHYwLj-WQoCzQ5kK8wBNYMT0Ih/view?usp=sharing"
                     target="_blank"
                     className="link-icon"
                   >
