@@ -7,7 +7,7 @@ function Navbar() {
         <div className="content-wrapper">
           <div className="navbar-header">PORTFOLIO</div>
           <div className="navbar-headings">
-            <a className="nav-link" href="#summary">
+            <a className="nav-link" href="#about">
               ABOUT
             </a>
             <a className="nav-link" href="#projects">

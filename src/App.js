@@ -26,8 +26,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="about-container" id="summary">
-        <span className="headings">A bit about me</span>
+
+      <div className="about-container" id="about">
+        <span className="headings">A BIT ABOUT ME</span>
         <div className="about-wrapper">
           <div className="about-sec">
             <img
@@ -44,21 +45,23 @@ function App() {
               FULLSTACK WEB DEVELOPER (MERN)
             </h2>
             <p className="explanation">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm
-              a self-taught web developer with experience in designing new
-              futures from ideation to production, implementation of wireframes
-              and design flows into high performance software applications. I
-              take into consideration the user experience while writing reusable
-              and efficient code. I passionately combine good design,
-              technology, and innovation in all my projects, which I like to
-              company from the first idea to release. currently, I am focus on
-              the backend developer.
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Highly skilled and dedicated MERN (MongoDB, Express, React,
+              Node.js) stack developer with a proven track record of
+              successfully delivering robust and scalable web applications.
+              Demonstrated expertise in front-end and back-end development,
+              coupled with a strong understanding of database design and
+              optimization. Committed to delivering exceptional user experiences
+              through clean code, efficient architecture, and innovative
+              problem-solving. Passionate about staying updated with emerging
+              technologies and best practices to drive innovation and exceed
+              client expectations.
             </p>
           </div>
         </div>
       </div>
       <div className="project-container" id="projects">
-        <span className="headings">Projects and Works</span>
+        <span className="headings">PROJECTS AND WORKS</span>
         <div className="project-wrapper">
           <div className="project-card">
             <img
@@ -104,9 +107,10 @@ function App() {
             />
             <h3 className="project-title">E-Commerce</h3>
             <p className="project-description">
-              Equipment rental portal Developed an e-commerce platform that
-              integrated with payment gateways and enabled customers to purchase
-              products online.
+              Create an efficient equipment rental website with a user-friendly
+              cart system for easy selection. Streamline the payment process
+              with a secure and intuitive payment overview, enhancing the
+              overall user experience.
             </p>
             <div className="projects-links">
               <a
@@ -138,10 +142,12 @@ function App() {
               alt=""
               className="project-img"
             />
-            <h3 className="project-title">ChatBot</h3>
+            <h3 className="project-title">Chat Application</h3>
             <p className="project-description">
-              ChatBot is a commutation platform, everybody can communicate with
-              their favorite person and it is a Reliable, Private, Simple.
+              Developed a real-time chat website using React, Node.js, and
+              MongoDB. Implemented user authentication and authorization for
+              secure access to chat rooms. Utilized WebSocket technology for
+              instant messaging functionality.
             </p>
             <div className="projects-links">
               <a
@@ -169,32 +175,33 @@ function App() {
           </div>
           <div className="project-card">
             <img
-              src="https://images.wsj.net/im-51539/D"
+              src="https://monday.com/blog/wp-content/uploads/2020/12/Work2_Light-Purple.jpg"
               alt=""
               className="project-img"
             />
-            <h3 className="project-title">Movie-Bot</h3>
+            <h3 className="project-title">Task Management App</h3>
             <p className="project-description">
-              It's a Movie Streaming Application, who can register with their
-              Credentials, they can Watch Movies without Premium/Subscription.
+              Developed a task management web application using React and
+              Node.js. This application allows users to create, read, update,
+              and delete tasks, as well as mark tasks as completed.
             </p>
             <div className="projects-links">
               <a
-                href="https://frontend.d1mum3ryh4pnhi.amplifyapp.com"
+                href="https://my-tasks-management.netlify.app/"
                 target="_blank"
                 style={{ cursor: "unset", textDecoration: "none" }}
               >
                 <button className="project-link-btn">Hosting</button>
               </a>
               <a
-                href="https://github.com/vigneshvicky3122/movie-bot/tree/frontend"
+                href="https://github.com/vigneshvicky3122/Task-Management/tree/front-end"
                 target="_blank"
                 style={{ cursor: "unset", textDecoration: "none" }}
               >
                 <button className="project-link-btn">Frontend</button>
               </a>
               <a
-                href="https://github.com/vigneshvicky3122/movie-bot/tree/backend"
+                href="https://github.com/vigneshvicky3122/Task-Management/tree/back-end"
                 target="_blank"
                 style={{ cursor: "unset", textDecoration: "none" }}
               >
@@ -205,7 +212,7 @@ function App() {
         </div>
       </div>
       <div className="skills-container" id="skills">
-        <span className="headings">Skills and knowledge's</span>
+        <span className="headings">SKILLS AND KNOWLEDGE'S</span>
         <ul className="skills-items">
           <li className="skills-element">
             <img
@@ -342,7 +349,7 @@ function App() {
       <div className="contacts-container" id="contacts">
         <div className="contacts-wrapper">
           <form className="contact-inputs" onSubmit={handleSubmit}>
-            <h4 className="form-title">Connect with me </h4>
+            <h4 className="form-title">CONNECT WITH ME! </h4>
             <input
               type="text"
               name="first_name"
@@ -403,7 +410,7 @@ function App() {
                 <label>Links</label>
                 <div className="contact-links">
                   <a
-                    href="https://dza205f4gev3o.cloudfront.net/my-assets/RESUME-.pdf"
+                    href="https://drive.google.com/file/d/11NEIVfkuIwtMb0maA7xPmiyhA-16HLCD/view?usp=sharing"
                     target="_blank"
                     className="link-icon"
                   >
@@ -424,7 +431,7 @@ function App() {
                     />
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/vignesh-a-a2b05a217"
+                    href="https://www.linkedin.com/in/vignesh-a-/"
                     target="_blank"
                     className="link-icon"
                   >
@@ -433,16 +440,6 @@ function App() {
                       alt=""
                     />
                   </a>
-                  {/* <a
-                    href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfmrTCCGhpJDMDZJpxhdgLnPHmHMwmHnlFCDmDRWQQdZbVFVPgHgsPwBBVQttKJGBQpKLq"
-                    target="_blank"
-                    className="link-icon"
-                  >
-                    <img
-                      src="https://img.icons8.com/3d-fluency/45/null/gmail.png"
-                      alt=""
-                    />
-                  </a> */}
                   <a
                     href="https://wa.me/8304873122?text=I'm%20interested%20in%20your%20job%20profile"
                     target="_blank"
