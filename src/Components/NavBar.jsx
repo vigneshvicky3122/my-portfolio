@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <React.Fragment>
       <nav className="fixed top-0 w-full bg-slate-50">
-        <div className="h-20 leading-10 flex flex-row justify-around items-center">
+        <div className="h-20 flex flex-row justify-around items-center">
           <NavLink reloadDocument>
             <h1 className="max-sm:text-sm text-xl text-indigo-700 font-bold">
               PORTFOLIO
@@ -19,8 +19,10 @@ function NavBar() {
                 to="#about"
                 className={`
                   ${
-                    hashLink === "#about" ? "text-indigo-700" : "text-black"
-                  } hover:text-slate-500 font-semibold max-sm:text-xs`}
+                    hashLink === "#about"
+                      ? "text-indigo-700 hover:text-indigo-400"
+                      : "text-black hover:text-indigo-700"
+                  } font-semibold max-sm:text-xs`}
               >
                 About
               </Link>
@@ -31,8 +33,10 @@ function NavBar() {
                 to="#projects"
                 className={`
                   ${
-                    hashLink === "#projects" ? "text-indigo-700" : "text-black"
-                  } hover:text-slate-500 font-semibold max-sm:text-xs`}
+                    hashLink === "#projects"
+                      ? "text-indigo-700 hover:text-indigo-400"
+                      : "text-black hover:text-indigo-700"
+                  } font-semibold max-sm:text-xs`}
               >
                 Projects
               </Link>
@@ -43,8 +47,10 @@ function NavBar() {
                 smooth
                 className={`
                   ${
-                    hashLink === "#skills" ? "text-indigo-700" : "text-black"
-                  } hover:text-slate-500 font-semibold max-sm:text-xs`}
+                    hashLink === "#skills"
+                      ? "text-indigo-700 hover:text-indigo-400"
+                      : "text-black hover:text-indigo-700"
+                  } font-semibold max-sm:text-xs`}
               >
                 Skills
               </Link>
@@ -55,8 +61,10 @@ function NavBar() {
                 smooth
                 className={`
                   ${
-                    hashLink === "#contact" ? "text-indigo-700" : "text-black"
-                  } hover:text-slate-500 font-semibold max-sm:text-xs`}
+                    hashLink === "#contact"
+                      ? "text-indigo-700 hover:text-indigo-400"
+                      : "text-black hover:text-indigo-700"
+                  } font-semibold max-sm:text-xs`}
               >
                 Contact
               </Link>

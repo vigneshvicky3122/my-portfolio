@@ -29,9 +29,9 @@ function About() {
             <Link
               smooth
               to="#contact"
-              className="border-2 text-indigo-700 border-indigo-700 px-3 py-2 rounded hover:bg-indigo-700 hover:text-slate-50 active:bg-indigo-600 max-sm:w-full max-sm:text-center"
+              className="border-2 text-indigo-700 border-indigo-700 px-3 py-2.5 font-semibold rounded hover:bg-indigo-700 hover:text-slate-50 focus:ring-indigo-300 focus:ring-4 max-sm:w-full max-sm:text-center"
             >
-              Contact Us &nbsp; <i className="fa-solid fa-arrow-right"></i>
+              Let's Connect &nbsp; <i className="fa-solid fa-arrow-right"></i>
             </Link>
           </div>
           <div>
